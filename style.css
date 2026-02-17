@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -34,18 +38,23 @@ body {
 /* Navbar */
 .navbar {
   position: fixed;
-  top: 40px; /* height of banner */
+  top: 40px;
   width: 100%;
   background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px 20px; /* reduce from 40px */
+  box-sizing: border-box; /* VERY IMPORTANT */
+}
+
+
+.menu {
+  display: flex;
+  gap: 20px; /* cleaner spacing */
 }
 
 .menu a {
-  margin-left: 20px;
   text-decoration: none;
   color: black;
   font-weight: 500;
