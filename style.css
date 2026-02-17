@@ -53,3 +53,9 @@ body {
 .menu a:hover {
   color: grey;
 }
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
