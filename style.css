@@ -125,10 +125,30 @@ body {
 }
 
 .price {
-  font-size: 28px;
-  font-weight: bold;
   margin-bottom: 25px;
 }
+
+.old-price {
+  text-decoration: line-through;
+  color: #777;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.new-price {
+  font-size: 32px;
+  font-weight: 800;
+  color: black;
+  margin-right: 10px;
+}
+
+.intro-label {
+  background: #bdff00;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
 
 .cta-btn {
   padding: 15px 35px;
