@@ -285,6 +285,17 @@ html {
   font-weight: 600;
 }
 
+.contact a {
+  color: #bdff00;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+
 
 
 /* Responsive */
