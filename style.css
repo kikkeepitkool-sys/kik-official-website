@@ -118,26 +118,30 @@ body {
 }
 
 /* ===== Mobile Navbar Fix ===== */
+/* ===== Mobile Navbar Layout ===== */
 @media (max-width: 768px) {
 
   .navbar {
-    padding: 0 5%;
-    height: 70px;
+    flex-direction: column;      /* stack items */
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 15px 0;
+    gap: 10px;
   }
 
   .logo img {
-    height: 40px; /* slightly smaller */
+    height: 45px;
   }
 
   .menu {
-    gap: 18px; /* reduce spacing */
-  }
-
-  .menu a {
-    font-size: 13px; /* smaller text */
+    flex-wrap: wrap;            /* allow wrap nicely */
+    justify-content: center;
+    gap: 20px;
   }
 
 }
+
 
 
 /* ===== Hero Section ===== */
