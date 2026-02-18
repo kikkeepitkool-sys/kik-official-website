@@ -117,6 +117,28 @@ body {
   color: #bdff00;
 }
 
+/* ===== Mobile Navbar Fix ===== */
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 0 5%;
+    height: 70px;
+  }
+
+  .logo img {
+    height: 40px; /* slightly smaller */
+  }
+
+  .menu {
+    gap: 18px; /* reduce spacing */
+  }
+
+  .menu a {
+    font-size: 13px; /* smaller text */
+  }
+
+}
+
 
 /* ===== Hero Section ===== */
 
