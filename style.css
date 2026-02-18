@@ -48,6 +48,13 @@ body {
   }
 }
 
+.banner-logo {
+  height: 18px;
+  margin: 0 15px;
+  vertical-align: middle;
+}
+
+
 /* ===== Navbar ===== */
 
 .navbar {
