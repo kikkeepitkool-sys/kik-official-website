@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Why Is Malaysia Getting Hotter? | KIK Sports Malaysia</title>
+  <meta name="description" content="Malaysia’s temperatures are rising due to climate change and urban heat. Learn why it feels hotter and how to stay cool during sports and daily life with smart cooling solutions.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <!-- Banner -->
+  <div class="top-banner">
+    <div class="banner-track">
+      <span>KIK SPORTS Introductory Price RM14.90</span>
+      <span>Buy 3 Free 1</span>
+      <span>KIK SPORTS Introductory Price RM14.90</span>
+      <span>Buy 3 Free 1</span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">
+      <a href="../index.html">
+        <img src="../assets/icekicklogo.png" alt="KIK Logo">
+      </a>
+    </div>
+
+    <div class="menu">
+      <a href="../index.html">Product</a>
+      <a href="../index.html#about">About Us</a>
+      <a href="../blog.html">Blog</a>
+      <a href="../index.html#contact">Contact Us</a>
+    </div>
+  </div>
+
+  <!-- Blog Content -->
+  <section class="blog-post-page" style="margin-top:120px; padding:80px 8%; max-width:900px;">
+    
+    <h1>Why Is Malaysia Getting Hotter? And How to Stay Cool in Daily Life</h1>
+
+    <p><strong>Published on: 19 February 2026</strong></p>
+
+    <p>
+      Many Malaysians have been saying the same thing recently — “Why so hot nowadays?”
+      Whether you’re playing outdoor sports, commuting to work, or just walking under the afternoon sun, 
+      the heat feels stronger, heavier, and more draining than before.
+    </p>
+
+    <h2>Is Malaysia Really Getting Hotter?</h2>
+
+    <p>
+      Yes. Rising global temperatures, rapid urban development, and changing weather patterns are contributing to hotter days across Malaysia.
+      Cities especially experience what is known as the <strong>urban heat island effect</strong>, where buildings, roads and concrete surfaces absorb and trap heat.
+    </p>
+
+    <p>
 
