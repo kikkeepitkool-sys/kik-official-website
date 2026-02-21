@@ -221,6 +221,7 @@ body {
 /* ===== Features Section ===== */
 
 .features {
+  background: #f5f5f5;
   padding: 80px 10%;
 }
 
@@ -285,6 +286,7 @@ body {
 
 .blog-preview {
   padding: 80px 8%;
+  background: #f5f5f5;
 }
 
 .blog-preview h2 {
@@ -342,6 +344,7 @@ body {
 /* ===== About Section ===== */
 
 .about {
+  background: #f5f5f5;
   padding: 80px 10%;
 }
 
@@ -497,5 +500,3 @@ html {
 .blog-post-page a:hover {
   color: #bdff00;
 }
-
-
