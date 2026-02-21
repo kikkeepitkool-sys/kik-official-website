@@ -258,6 +258,34 @@ function trackBuy() {
 }
 </script>
 
+  <script>
+let scroll50Sent = false;
+let scroll90Sent = false;
+
+window.addEventListener("scroll", function () {
+  const scrollTop = window.scrollY;
+  const docHeight = document.body.scrollHeight - window.innerHeight;
+  const scrollPercent = (scrollTop / docHeight) * 100;
+
+  if (scrollPercent > 50 && !scroll50Sent) {
+    gtag('event', 'scroll_50', {
+      event_category: 'engagement',
+      event_label: 'Scrolled 50%'
+    });
+    scroll50Sent = true;
+  }
+
+  if (scrollPercent > 90 && !scroll90Sent) {
+    gtag('event', 'scroll_90', {
+      event_category: 'engagement',
+      event_label: 'Scrolled 90%'
+    });
+    scroll90Sent = true;
+  }
+});
+</script>
+
+
 
 </body>
 </html>
