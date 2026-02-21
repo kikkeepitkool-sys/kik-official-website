@@ -528,3 +528,84 @@ html {
 }
 
 
+/* ===== Blog Page Layout ===== */
+
+.blog-page {
+  margin-top: 120px;
+  padding: 60px 8%;
+  background-color: #ffffff;
+}
+
+.blog-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.blog-title {
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.blog-card {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #eee;
+  padding: 30px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.blog-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.blog-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.blog-content {
+  flex: 1;
+}
+
+.blog-content h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.blog-content p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.read-more {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+  transition: 0.3s;
+}
+
+.read-more:hover {
+  color: #bdff00;
+}
+
+/* ===== Mobile Responsive ===== */
+
+@media (max-width: 768px) {
+  .blog-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .blog-image {
+    width: 100%;
+  }
+}
+
+
