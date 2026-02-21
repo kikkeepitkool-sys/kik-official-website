@@ -500,3 +500,22 @@ html {
 .blog-post-page a:hover {
   color: #bdff00;
 }
+
+/* ===== Share Section ===== */
+
+.share-section {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.share-section a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+.share-section a:hover {
+  color: #bdff00;
+}
+
