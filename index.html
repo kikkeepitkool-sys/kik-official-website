@@ -77,7 +77,8 @@
   <span class="intro-label">Introductory Price</span>
 </div>
 
-        <button class="cta-btn">BUY NOW</button>
+        <button class="cta-btn" onclick="trackBuy()">BUY NOW</button>
+
       </div>
 
     </div>
@@ -245,6 +246,17 @@ Always Keep It Kool.
   <footer class="footer">
     © 2026 KIK Official. All rights reserved.
   </footer>
+
+  
+  <script>
+function trackBuy() {
+  gtag('event', 'buy_click', {
+    event_category: 'engagement',
+    event_label: 'Buy Now Button'
+  });
+}
+</script>
+
 
 </body>
 </html>
