@@ -224,16 +224,23 @@ Always Keep It Kool.
       
       <p>
         TikTok:
-        <a href="https://www.tiktok.com/@keepitkool.kik" target="_blank">
-          @keepitkool.kik
+        <a href="https://www.tiktok.com/@keepitkool.kik"
+         target="_blank"
+         onclick="trackTikTok()">
+         @keepitkool.kik
         </a>
+
       </p>
+      
 
       <p>
         Instagram:
-        <a href="https://www.instagram.com/kik_keep.it.kool" target="_blank">
-          @kik_keep.it.kool
-        </a>
+   <a href="https://www.instagram.com/kik_keep.it.kool"
+   target="_blank"
+   onclick="trackInstagram()">
+   @kik_keep.it.kool
+  </a>
+
       </p>
     </div>
   </div>
@@ -284,6 +291,23 @@ window.addEventListener("scroll", function () {
   }
 });
 </script>
+
+  <script>
+function trackTikTok() {
+  gtag('event', 'tiktok_click', {
+    event_category: 'social',
+    event_label: 'TikTok Link'
+  });
+}
+
+function trackInstagram() {
+  gtag('event', 'instagram_click', {
+    event_category: 'social',
+    event_label: 'Instagram Link'
+  });
+}
+</script>
+
 
 
 
