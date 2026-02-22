@@ -282,52 +282,67 @@ body {
 }
 
 
-/* ===== Blog Carousel ===== */
+/* ===== Blog Preview Section ===== */
 
 .blog-preview {
   padding: 80px 8%;
-  background: #f5f5f5;
+  background: #ffffff; /* clean white */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .blog-preview h2 {
   margin-bottom: 40px;
-  font-size: 28px;
+  font-size: 30px;
+  text-align: center;
 }
+
+/* ===== Carousel Layout ===== */
 
 .blog-carousel {
   display: flex;
   gap: 30px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  padding-bottom: 10px;
 }
 
 .blog-carousel::-webkit-scrollbar {
   display: none;
 }
 
+/* ===== Blog Card ===== */
+
 .blog-card {
-  min-width: 300px;
-  background: white;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  min-width: 320px;
+  max-width: 350px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid #eee;
   scroll-snap-align: start;
   flex-shrink: 0;
-  transition: transform 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .blog-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 .blog-card h3 {
   font-size: 18px;
   margin-bottom: 15px;
+  line-height: 1.4;
 }
 
 .blog-card p {
   font-size: 14px;
   margin-bottom: 20px;
+  line-height: 1.6;
   color: #555;
 }
 
@@ -335,11 +350,13 @@ body {
   text-decoration: none;
   font-weight: 600;
   color: black;
+  font-size: 14px;
 }
 
 .blog-card a:hover {
   color: #bdff00;
 }
+
 
 /* ===== About Section ===== */
 
