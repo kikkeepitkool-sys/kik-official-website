@@ -318,13 +318,12 @@ body {
 
 /* Renamed from blog-card */
 .blog-preview-card {
-  min-width: 300px;
+  flex: 0 0 300px;   /* fixed consistent width */
   background: white;
   padding: 25px;
   border-radius: 12px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
   scroll-snap-align: start;
-  flex-shrink: 0;
   transition: transform 0.3s ease;
 }
 
