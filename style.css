@@ -651,7 +651,7 @@ html {
 }
 
 .blog-image {
-  width: 300px;
+  width: 350px;
   height: 200px;
   object-fit: cover;
   border-radius: 12px;
@@ -675,12 +675,12 @@ html {
 .read-more {
   text-decoration: none;
   font-weight: 600;
-  color: #00bcd4;
+  color: black;
   transition: 0.3s ease;
 }
 
 .read-more:hover {
-  color: #007c91;
+  color: #bdff00;
 }
 
 
