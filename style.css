@@ -713,7 +713,7 @@ html {
   min-width: 180px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   border-radius: 10px;
-  top: 35px;
+  top: 100%;
   padding: 8px 0;
   z-index: 999;
 }
