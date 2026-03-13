@@ -539,76 +539,6 @@ html {
 }
 
 
-/* ===== Blog Page Layout ===== */
-/* 
-.blog-page {
-  margin-top: 120px;
-  padding: 60px 8%;
-  background-color: #ffffff;
-}
-
-.blog-container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.blog-title {
-  font-size: 36px;
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.blog-card {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  background: #ffffff;
-  border: 1px solid #eee;
-  padding: 30px;
-  border-radius: 12px;
-  transition: 0.3s ease;
-}
-
-.blog-card:hover {
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-}
-
-.blog-image {
-  width: 300px;
-  height: auto;
-  border-radius: 10px;
-  object-fit: cover;
-}
-
-.blog-content {
-  flex: 1;
-}
-
-.blog-content h3 {
-  font-size: 22px;
-  margin-bottom: 15px;
-}
-
-.blog-content p {
-  line-height: 1.6;
-  margin-bottom: 20px;
-  font-size: 16px;
-}
-
-.read-more {
-  text-decoration: none;
-  font-weight: 600;
-  color: black;
-  transition: 0.3s;
-}
-
-.read-more:hover {
-  color: #bdff00;
-} */
-
-/* ============================= */
-/* BLOG PAGE */
-/* ============================= */
 
 .blog-blog-page {
   padding: 160px 8% 100px 8%;
@@ -759,6 +689,58 @@ html {
 .report-btn:hover{
   background:#bdff00;
   color:black;
+}
+
+/* ========================= */
+/* Dropdown Menu */
+/* ========================= */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: white;
+  min-width: 180px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  top: 35px;
+  padding: 8px 0;
+  z-index: 999;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+/* Brand hover effect */
+.dropdown-content a:hover {
+  background: #bdff00;
+  color: black;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Optional small arrow effect */
+.dropdown:hover .dropbtn {
+  color: #bdff00;
 }
 
 /* ===== Mobile Responsive ===== */
