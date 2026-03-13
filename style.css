@@ -703,6 +703,64 @@ html {
   }
 }
 
+/* ============================= */
+/* Lab Test Page */
+/* ============================= */
+
+.lab-tests{
+  padding:120px 8% 80px 8%;
+  text-align:center;
+  max-width:900px;
+  margin:auto;
+}
+
+.lab-tests h1{
+  font-size:32px;
+  margin-bottom:40px;
+}
+
+.lab-report{
+  background:white;
+  padding:40px;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.lab-report img{
+  width:100%;
+  max-width:500px;
+  margin-bottom:30px;
+  border-radius:8px;
+}
+
+.lab-report h3{
+  font-size:22px;
+  margin-bottom:15px;
+}
+
+.lab-report p{
+  color:#555;
+  line-height:1.6;
+  margin-bottom:15px;
+}
+
+.report-btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 24px;
+  background:black;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:600;
+  transition:0.2s;
+}
+
+.report-btn:hover{
+  background:#bdff00;
+  color:black;
+}
+
 /* ===== Mobile Responsive ===== */
 
 @media (max-width: 768px) {
