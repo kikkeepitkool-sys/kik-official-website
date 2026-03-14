@@ -69,7 +69,10 @@ body {
 }
 
 /* ===== Navbar ===== */
-
+.arrow {
+  font-size: 8px;
+  margin-left: 4px;
+}
 .navbar {
   position: fixed;
   top: 40px; /* below banner */
